@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Calculator.css";
 
 const Calculator = () => {
-  const [result, setResult] = useState("0");
+  const [result, setResult] = useState("");
 
   const handleOnClick = (event) => {
     const data = event.target.value;
